@@ -1,0 +1,63 @@
+indexs <- c(1: 22)
+for (index in indexs){
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-5/Adhoc/Runs/CategoryA'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware','/TREC-5', '/midware_leave-one-group-out_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-5/Adhoc/QRels/qrels.251-300'
+indice_path = '/Users/danli/Documents/Project/bosp/data/pickle/TREC-5/leave-one-group-out.csv'
+mm_ns_multiple_queries_split(pool_folder, out_folder, qrels_path, indice_path, index)
+}
+
+indexs <- c(1: 30)
+for (index in indexs){
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-6/Adhoc/Runs/CategoryA'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware','/TREC-6', '/midware_leave-one-group-out_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-6/Adhoc/QRels/qrels.trec6.adhoc'
+indice_path = '/Users/danli/Documents/Project/bosp/data/pickle/TREC-6/leave-one-group-out.csv'
+mm_ns_multiple_queries_split(pool_folder, out_folder, qrels_path)
+}
+
+indexs <- c(1: 43)
+for (index in indexs){
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-7/Adhoc/Runs'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware','/TREC-7', '/midware_leave-one-group-out_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-7/Adhoc/QRels/qrels.351-400.trec7'
+indice_path = '/Users/danli/Documents/Project/bosp/data/pickle/TREC-7/leave-one-group-out.csv'
+mm_ns_multiple_queries_split(pool_folder, out_folder, qrels_path)
+}
+
+indexs <- c(1: 42)
+for (index in indexs){
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-8/Adhoc/Runs'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware','/TREC-8', '/midware_leave-one-group-out_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-8/Adhoc/QRels/qrels.trec8.adhoc.parts1-5'
+indice_path = '/Users/danli/Documents/Project/bosp/data/pickle/TREC-8/leave-one-group-out.csv'
+mm_ns_multiple_queries_split(pool_folder, out_folder, qrels_path)
+}
+
+indexs <- c(1: 24)
+for (index in indexs){
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-9/Web/Runs'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware','/TREC-9', '/midware_leave-one-group-out_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-9/Web/QRels/qrels.trec9.main_web'
+indice_path = '/Users/danli/Documents/Project/bosp/data/pickle/TREC-9/leave-one-group-out.csv'
+mm_ns_multiple_queries_split(pool_folder, out_folder, qrels_path)
+}
+
+indexs <- c(1: 30)
+for (index in indexs){
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-10/Web/Runs'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware','/TREC-10', '/midware_leave-one-group-out_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-10/Web/QRels/adhoc_qrels.txt'
+indice_path = '/Users/danli/Documents/Project/bosp/data/pickle/TREC-10/leave-one-group-out.csv'
+mm_ns_multiple_queries_split(pool_folder, out_folder, qrels_path)
+}
+
+indexs <- c(1: 17)
+for (index in indexs){
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-11/Web/Runs'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware','/TREC-11', '/midware_leave-one-group-out_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-11/Web/QRels/qrels.distillation.txt'
+indice_path = '/Users/danli/Documents/Project/bosp/data/pickle/TREC-11/leave-one-group-out.csv'
+mm_ns_multiple_queries_split(pool_folder, out_folder, qrels_path)
+}
+

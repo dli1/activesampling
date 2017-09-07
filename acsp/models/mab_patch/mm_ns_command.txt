@@ -1,0 +1,38 @@
+indexs <- c(1
+: 31)
+for (index in indexs){
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-5/Adhoc/Runs/CategoryA'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware/', '/TREC-5', '/midware_complete_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-5/Adhoc/QRels/qrels.251-300'
+mm_ns_multiple_queries(pool_folder, out_folder, qrels_path)
+
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-6/Adhoc/Runs/CategoryA'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware/', '/TREC-6', '/midware_complete_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-6/Adhoc/QRels/qrels.trec6.adhoc'
+mm_ns_multiple_queries(pool_folder, out_folder, qrels_path)
+
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-7/Adhoc/Runs'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware/', '/TREC-7', '/midware_complete_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-7/Adhoc/QRels/qrels.351-400.trec7'
+mm_ns_multiple_queries(pool_folder, out_folder, qrels_path)
+
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-8/Adhoc/Runs'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware/', '/TREC-8', '/midware_complete_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-8/Adhoc/QRels/qrels.trec8.adhoc.parts1-5'
+mm_ns_multiple_queries(pool_folder, out_folder, qrels_path)
+
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-9/Web/Runs'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware/', '/TREC-9', '/midware_complete_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-9/Web/QRels/qrels.trec9.main_web'
+mm_ns_multiple_queries(pool_folder, out_folder, qrels_path)
+
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-10/Web/Runs'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware/', '/TREC-10', '/midware_complete_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-10/Web/QRels/adhoc_qrels.txt'
+mm_ns_multiple_queries(pool_folder, out_folder, qrels_path)
+
+pool_folder = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-11/Web/Runs'
+out_folder = paste('/Users/danli/Documents/Project/bosp/data/midware/', '/TREC-11', '/midware_complete_', index, sep="")
+qrels_path = '/Users/danli/Documents/Project/bosp/data/order_archive/TREC-11/Web/QRels/qrels.distillation.txt'
+mm_ns_multiple_queries(pool_folder, out_folder, qrels_path)
+}

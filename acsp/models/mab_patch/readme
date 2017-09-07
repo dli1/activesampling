@@ -1,0 +1,6 @@
+The R code of paper "Feeling Lucky? Multi-armed Bandits for Ordering Judgements in Pooling-based Evaluation" is adapted as a baseline.
+
+1. Prepare input data: run patch.py to rank documents by score.
+2. Perform sampling for experiment 1/2: run R script mm_ns_command.txt.
+3. Prepare sampling for experiment 3: run R script mm_ns_split_command.txt.
+4. Run acsp.scripts.main, choose MAB model.
